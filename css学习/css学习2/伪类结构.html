@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>伪类结构</title>
+    <style>
+        /* [title*="a"] {
+            color: red;
+        } */
+        /* div a:link {
+            background-color: blue;
+            font-size: 200px;
+        }
+        div a:visited {
+            background-color: red;
+            font-size: 200px;
+        }
+        div a:hover{
+            background-color: yellow;
+            font-size: 200px;
+        }
+        div a:active {
+            background-color: pink;
+            font-size: 200px;
+        }
+         */
+        /* p:not(:first-of-type)
+        {
+            color: blue;
+        } */
+        /* input:checked {
+            color: red;
+            width: 100px;
+            height: 100px;
+        }
+        input:disabled {
+            color: pink;
+        }
+        input:lang(en){
+            color: pink;
+        }
+        p:target {
+            color: pink;
+        }
+        p:target {
+        background-color: gold;
+        } */
+    p:target {
+        color: gold;
+    }
+/* 在目标元素中增加一个伪元素*/
+    p:target::before {
+    font: 70% sans-serif;
+    content: "►";
+    color: limegreen;
+    margin-right: 0.25em;
+    }
+
+    /*在目标元素中使用 italic 样式*/
+    p:target i {
+    color: red;
+    }
+
+    </style>
+</head>
+<body>
+    <!-- <h1>伪类结构
+        <a href="https://www.baidu.com">百度</a>
+        <p title="abcd">234</p>
+        <p title="abc">345</p>
+        <p title="bca">456</p>
+        <p title="bac">567</p>
+    </h1>
+    <p>456</p> -->
+    <!-- <div>
+        <a target="_blank" href="https://www.jd.com">百度</a>
+        <a target="_blank" href="https://www.baidu.com">淘宝</a>
+        <a target="_blank" href="https://www.baidu.com">京东</a>
+        <a target="_blank" href="https://www.baidu.com">腾讯</a>
+    </div> -->
+
+    <!-- <h1>
+        <div>
+            <p class="a">123</p>
+            <p>23423</p>
+        </div>
+        <p>123</p>
+        <div>
+            <p>456</p>
+            <p>789</p>
+            <p>000</p>
+        </div>
+        <p>789</p>
+        <p>000</p>
+    </h1>
+    <input lang="en" type="text" name="sex" value="man" > 
+    <input type="radio" name="sex" value="woman" >女
+    <input type="checkbox" name="sex" value="woman" >
+    <input disabled type="text"  name="ceshi" value="123" >
+    <p id="p1">123</p> -->
+    <h3>目录</h3>
+    <ol>
+    <li><a href="#p1">跳转到第一个段落！</a></li>
+    <li><a href="#p2">跳转到第二个段落！</a></li>
+    <li><a href="#nowhere">此链接不会跳转，因为目标不存在。</a></li>
+    </ol>
+
+    <h3>我的趣味文章</h3>
+    <p id="p1">你可以使用 URL 片段定位此<i>段落</i>。点击上面的链接试试吧！</p>
+    <p id="p2">这是<i>另一个段落</i>，也可以从上面的链接访问。这不是很愉快吗？</p>
+
+
+</body>
+</html>

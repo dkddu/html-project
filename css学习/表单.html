@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://www.baidu.com/s">
+        <fieldset>
+            <legend>主要信息</legend>
+            <label for="zhangsan">账户:</label>
+            <input id="zhangsan"  type="text" name="account"  maxlength="10"><br>
+            <label for="123">密码:</label>
+            <input id="123" type="password" name="psw"  maxlength="10"><br>
+            性别:
+            <input id="male" type="radio"  name="gender" value="male" ><label for="male">男</label>
+            <input id="female" type="radio" name="gender" value="female" ><label for="female">女</label><br>
+        </fieldset>
+        <fieldset>
+            <legend>其他信息</legend>
+            爱好：
+            <input id="smoke" type="checkbox" name="hobby" value="smoke" ><label for="smoke">抽烟</label>
+            <input id="drink" type="checkbox" name="hobby" value="drink" ><label for="drink">喝酒</label>
+            <input id="card" type="checkbox" name="hobby" value="card" ><label for="card">打牌</label><br>
+        
+            <label for="other">其他：</label><textarea id="other" name="other" cols="30" rows="10"></textarea><br>
+            <label for="province">省籍贯：</label>
+            <select id="province" name="province">
+                <option value="北京">北京</option>
+                <option value="天津">天津</option>
+                <option value="河北">河北</option>
+                <option value="山西">山西</option>
+                <option value="内蒙古">内蒙古</option>
+                <option value="辽宁">辽宁</option>
+                <option value="吉林">吉林</option>
+            </select><br>
+            <button type="submit">确认</button>
+            <button type="reset">重置</button>
+            <button type="button">检查是否已有帐号</button>
+        </fieldset>
+        
+
+    </form>
+</body>
+</html>

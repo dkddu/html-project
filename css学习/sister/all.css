@@ -1,0 +1,68 @@
+
+@font-face{
+    font-family: 'font';
+    src: url(font/OtsutomeFont_Ver3_15.ttf);
+}
+.name{
+    font-family: 'font';
+    font-size: 50px;
+    color: #fe95d2;
+    display: flex;
+    justify-content: center;
+    
+}
+.content{
+    font-family: 'font';
+    font-size: 30px;
+    color: #f88d3c;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.introduce{
+    font-family: 'font';
+    font-size: 40px;
+    color: #f6f040;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+body .shell-main-footer {
+    width: 100%;
+    position: relative;
+    height: 100px;
+    transform: translateY(100px);
+    display: flex;
+    justify-content: center;
+    letter-spacing: 2px;
+    align-items: center;
+    text-align: center;
+    font: 100 30px 'font';
+    background-color: #a1e6ff;
+}
+img {
+    width: 300px; /* 设置宽度 */
+    height: auto; /* 根据宽度自动调整高度，保持图片比例 */
+}
+.photo{
+    font-family: 'font';
+    font-size: 30px;
+    color: #3bfb95;
+
+}
+hr {
+    border: none;
+    border-top: 10px solid #20a1e2; /* 设置上边框 */
+    margin: 20px 0; /* 设置上下边距 */
+}
+.word{
+    font-family: 'font';
+    font-size: 20px;
+    color: rgb(1, 96, 155);
+    background-color: #a1e6ff;
+    margin-right: 0.25em;
+}
+em {
+    background-color: #dd7f32;
+}
+

@@ -1,0 +1,23 @@
+h1 {
+    color: red;
+    font-size: 20px;
+    text-decoration:line-through;
+}
+h2 {
+    color: blue;
+    font-size: 20px;
+    text-align: wavy;
+}
+p {
+    color: green;
+
+    font-size: 20px;
+}
+h3 {
+    color: yellow;
+    color: #24c2d796;
+    font-size: 20px;
+}
+img {
+    width: 400px;
+}
